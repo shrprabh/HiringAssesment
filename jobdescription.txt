@@ -1,0 +1,203 @@
+### Your task
+
+Create a full-stack app to help you figure out who to hire. Other than the form submissions data above, you’ll be starting completely from scratch.
+
+It’s up to you to decide what features and functionalities to build, as well as how you use the data. Ultimately, you will demo using your app to **choose a diverse team of 5 people to hire and communicate why they were chosen.** 
+
+You have **1hr 45m** to ideate, implement, and demo your app. Good luck! 
+
+<aside>
+💡
+
+**Important:**
+
+1. Please record a 5 minute demo and email it to [danielhe@mercor.com](mailto:danielhe@mercor.com)
+2. Share your entire screen in the interview
+
+
+# First we need to check the job description and then we will be checking the years of experience required 
+because both plays a crucial role. and then we match the skills which is requrired for the job and the candidate experience and also we can check the university from which he 
+graduated or the comany he worked from this we give the weights for each individauls and also for the ats score match with the job description.
+and then we evaluate the project decription and the linkedin to scrape the website and get the information. and weigh it with the and compare it and give the score as a graph for each individaul
+then we can get the best candidate and then we select thorse candidate show it to the company.
+
+What are the things required
+
+React or NextJS
+For backend: we dont need backend for this right now we can go with the data we have in json format.
+For styling we can use tailwind or bootstrap 3 for responsive design.
+
+Wireframing.
+
+
+we need to create an api where we will be using gemini api and this will call 
+the backend current api to find the diverse 
+team of 5 people based on skills and job description using the current approach
+and on top of it we will be using the MCP server of fastapi to call the api and get the 5 diverse 
+talent from the api calls made by mcp assynchronously and give me the reason for why 5 developers as been hired as an 
+api out put
+the api will be taking the job description and gave the proper skills to get top details of the candidate by considering the 
+people who required for diverse start ups which includes the maximum skills and top candidates from the resume by considering the overall skills
+which we have from the current api so that we will be having the diverse and best team by utilizing this so we need one solid api which gives the top 5 people after evaluation of all the factors and also it shoudl give why they should hired
+to the start up seed funders.
+I have added gemini api in the .env folder for calling the gemini ai assiatant to call the other api to initiate mcp and get the results.
+[
+  "adobe software",
+  "agile",
+  "airflow",
+  "algorithmic trading",
+  "amazon web services",
+  "angel investing",
+  "angular",
+  "ansible",
+  "arduino",
+  "assembly",
+  "auditing",
+  "azure",
+  "blockchain",
+  "bootstrap",
+  "c",
+  "c#",
+  "c++",
+  "chess",
+  "circleci",
+  "cobol",
+  "competitive analysis",
+  "computer vision",
+  "content creation",
+  "creative writing",
+  "customer service",
+  "cybersecurity",
+  "cypress",
+  "dart",
+  "data analysis",
+  "databricks",
+  "digital marketing",
+  "django",
+  "docker",
+  "e-commerce",
+  "elasticsearch",
+  "elixir",
+  "etl",
+  "excel",
+  "express",
+  "fast api",
+  "figma",
+  "flask",
+  "flutter",
+  "gdpr compliance",
+  "gis",
+  "gitlab ci",
+  "golang",
+  "google cloud platform",
+  "grafana",
+  "graphql",
+  "grpc",
+  "hadoop",
+  "haskell",
+  "helm",
+  "hr",
+  "html/css",
+  "illustrator",
+  "imo medalist",
+  "imo participant",
+  "international mathematics olympiad",
+  "investing",
+  "iot",
+  "java",
+  "javascript",
+  "jenkins",
+  "jest",
+  "kafka",
+  "kibana",
+  "kotlin",
+  "kubernetes",
+  "laravel",
+  "large language models (llms)",
+  "lean",
+  "linkedin recruiter",
+  "lua",
+  "machine learning",
+  "market research",
+  "matlab",
+  "matplotlib",
+  "microservices",
+  "mocha",
+  "mongodb",
+  "neo4j",
+  "nest js",
+  "net",
+  "network security",
+  "networking",
+  "next js",
+  "nlp",
+  "node js",
+  "nosql",
+  "oauth",
+  "objective-c",
+  "ocaml",
+  "openshift",
+  "pandas",
+  "penetration testing",
+  "photoshop",
+  "php",
+  "postgresql",
+  "power automate",
+  "power bi",
+  "powerpoint",
+  "presentation skills",
+  "project management",
+  "prometheus",
+  "python",
+  "pytorch",
+  "quantitative research (quant research)",
+  "quantitative trading (quant trading)",
+  "quantum computing",
+  "r",
+  "rabbitmq",
+  "react",
+  "react native",
+  "recruiting",
+  "redis",
+  "redux",
+  "rest apis",
+  "risk management",
+  "ruby",
+  "ruby on rails",
+  "rust",
+  "salesforce",
+  "salesforce development",
+  "sap",
+  "scala",
+  "seaborn",
+  "shopify",
+  "shopify development",
+  "snowflake",
+  "solidity",
+  "spark",
+  "splunk",
+  "sql",
+  "supply chain management",
+  "swift",
+  "swift ui",
+  "tableau",
+  "tailwindcss",
+  "talent acquisition",
+  "technical writing",
+  "tensorflow",
+  "terraform",
+  "typescript",
+  "ui/ux design",
+  "unity",
+  "unreal engine",
+  "venture capital (vc)",
+  "vue js",
+  "web scraping",
+  "web3 development",
+  "webflow",
+  "websockets",
+  "wireframing",
+  "wix",
+  "xamarin",
+  "xml"
+]
