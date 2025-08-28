@@ -1,6 +1,8 @@
 # Hiring Assessment System
 
 A FastAPI-based application for evaluating and selecting candidates based on their qualifications and job requirements.
+# Unlisted Live Demo
+[![Watch the video](https://img.youtube.com/vi/KY8V7ZGSPFk/0.jpg)](https://youtu.be/KY8V7ZGSPFk)
 
 ## Setup
 
